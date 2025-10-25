@@ -70,7 +70,9 @@ Buat virtual environment
 python -m venv remidi_env
 ```
 ```bash
+
 Aktifkan virtual environment
+
 # Windows
 remidi_env\Scripts\acivate
 ```
