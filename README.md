@@ -27,16 +27,24 @@ Aplikasi ini memanfaatkan model **Named Entity Recognition (NER)** berbasis **BE
 
 | Komponen | Teknologi |
 |-----------|------------|
-| **Frontend** | React.js + TailwindCSS |
-| **Backend** | FastAPI (Python) |
+| **Frontend** | [React.js](https://react.dev/) + [TailwindCSS](https://tailwindcss.com/) |
+| **Backend** | [FastAPI (Python)](https://fastapi.tiangolo.com/) |
 | **Model AI** | BERT (Fine-tuned NER for Adverse Drug Reaction) |
-| **Visualisasi** | d3.js |
-| **Autentikasi & Akses API** | CORS Middleware |
+| **Visualisasi** | [d3.js](https://d3js.org/) |
 
 ---
 
 
 ## Instalasi & Konfigurasi
 
+
 ---
+
+## 🧪 Cara Menjalankan Proyek
+
+### 1️⃣ Clone Repository
+```bash
+git clone https://github.com/<username>/PharmaInsight.git
+cd PharmaInsight
+
 
