@@ -5,9 +5,9 @@ Aplikasi ini memanfaatkan model **Named Entity Recognition (NER)** berbasis **BE
 
 ---
 
-## 🚀 Fitur Utama
+## Fitur Utama
 
-### 🧩 Analisis Obat
+### Analisis Obat
 - Pilih **merek obat** tertentu dan lihat:
   - Jumlah total efek samping yang terdeteksi  
   - Jumlah ulasan yang dianalisis  
@@ -16,14 +16,14 @@ Aplikasi ini memanfaatkan model **Named Entity Recognition (NER)** berbasis **BE
   - **Grafik frekuensi** efek samping teratas  
   - Ulasan lengkap beserta **penanda efek sampingnya**
 
-### 💬 Analisis Review
+### Analisis Review
 - Masukkan satu kalimat ulasan obat untuk mendapatkan:
   - **Confidence score** dari setiap efek samping yang terdeteksi  
   - Visualisasi entitas langsung pada teks ulasan  
 
 ---
 
-## ⚙️ Teknologi yang Digunakan
+## Teknologi yang Digunakan
 
 | Komponen | Teknologi |
 |-----------|------------|
@@ -34,17 +34,34 @@ Aplikasi ini memanfaatkan model **Named Entity Recognition (NER)** berbasis **BE
 
 ---
 
-
-## Instalasi & Konfigurasi
-
-
 ---
 
-## 🧪 Cara Menjalankan Proyek
+## Cara Menjalankan Proyek
 
-### 1️⃣ Clone Repository
+### Clone Repository
 ```bash
-git clone https://github.com/<username>/PharmaInsight.git
-cd PharmaInsight
+git clone https://github.com/dimelang/ReMiDi.git
+cd ReMiDi
+```
+
+
+### Download Model
+[Download model](https://binusianorg-my.sharepoint.com/personal/dimas_elang_binus_ac_id/_layouts/15/guestaccess.aspx?share=EcNQ3wukuBRKrH4JaotFI6YBX0J5IzV07mwHT_CVRSL6Gw&e=cVK5xD), ekstrak file ZIP ke dalam folder backend.
+
+Gunakan dua terminal yang berbeda
+### Menjalankan Backend
+```bash
+cd backend
+pip install fastapi uvicorn transformers torch pandas pydantic python-multipart
+uvicorn main:app --reload --host 0.0.0.0 --port 8000 --workers 1
+```
+
+### Menjalankan Frontend
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
 
 
