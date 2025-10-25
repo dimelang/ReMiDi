@@ -48,8 +48,23 @@ cd ReMiDi
 ### Download Model
 [Download model](https://binusianorg-my.sharepoint.com/personal/dimas_elang_binus_ac_id/_layouts/15/guestaccess.aspx?share=EcNQ3wukuBRKrH4JaotFI6YBX0J5IzV07mwHT_CVRSL6Gw&e=cVK5xD), ekstrak file ZIP ke dalam folder backend.
 
-Gunakan dua terminal yang berbeda
+Gunakan dua terminal yang berbeda untuk backend dan frontend
 ### Menjalankan Backend
+
+Buat virtual environment
+```bash
+python -m venv remidi_env
+```
+```bash
+Aktifkan virtual environment
+# Windows
+remidi_env\Scripts\acivate
+```
+```bash
+# Linux & MacOS
+source remidi_env/bin/activate
+```
+
 ```bash
 cd backend
 pip install fastapi uvicorn transformers torch pandas pydantic python-multipart
