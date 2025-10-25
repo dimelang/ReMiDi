@@ -47,6 +47,7 @@ cd ReMiDi
 
 ### Download Model
 [Download model](https://binusianorg-my.sharepoint.com/personal/dimas_elang_binus_ac_id/_layouts/15/guestaccess.aspx?share=EcNQ3wukuBRKrH4JaotFI6YBX0J5IzV07mwHT_CVRSL6Gw&e=cVK5xD), ekstrak file ZIP ke dalam folder backend. Pastikan struktur folder backend seperti berikut:
+```bash
 backend/
 ├── main.py
 ├── bert-ner-adr/
@@ -59,6 +60,7 @@ backend/
 │       └── vocab.txt
 └── dataset 
     └── ade_cadec-result_effects.csv
+```
 
 Gunakan dua terminal yang berbeda untuk backend dan frontend
 ### Menjalankan Backend
